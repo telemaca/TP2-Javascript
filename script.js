@@ -9,7 +9,6 @@ const precioMaquina = (componentes, precios) => {
             .filter(porComponentes)
             .reduce(aPrecioFinal, 0)
 }
-console.log(precioMaquina(["Motherboard ASUS 1200", "HDD Toyiva"], local.precios))
 
 //---------------------------------------------------------------------------------------
 //----------------------------cantidadVentasComponente(componente, ventas)---------------
